@@ -1,0 +1,66 @@
+/*Henter fonten "Oranienbaum" fra google til brug på sitet*/
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+
+/*Henter fonten "Open Sans Light" fra google til brug på sitet. Guide: https://www.wikihow.com/Use-Google-Fonts-in-CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*En class(gruppe) der alle har "Open sans" som font, størrelse 35*/
+.headtext{
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+}
+
+/*
+Når du vil bruge .headtext skal du i HTML skrive:
+<header class="headtext">
+ <h1>din tekst</h1>
+ <header>
+
+ header kan erstattes med section eller nav.
+OBS!! Du vil ikke se nogen fysisk forskel. Det er så programmet og andre kan vide hvad din tekst handler om!!
+ */
+
+/*En class(gruppe) der alle har "Oranienbaum" som font, størrelse 22*/
+.maintext{
+    font-family: 'Oranienbaum', serif;
+    font-size: 22px;
+}
+
+/*
+Når du vil bruge .maintext skal du i HTML skrive:
+<article class="maintext">
+<p> din tekst </p>
+ <article>
+
+ article kan erstattes med aside, main, section og flere andre.
+ evt kig på den her: https://www.w3schools.com/html/html5_semantic_elements.asp
+ */
+
+
+
+
+.clickGreen button{
+    font-family: "Open Sans", sans-serif; /*font*/
+    background-color: #66CC66; /* #66CC66(original), #91e191(lysere), #5c995c(mørkere), #73914b(mere brun i det)*/
+    color: white; /*tekst farve*/
+    width: 10vw; /*vw er view width - så ændre den størrelse når skærmen bliver mindre */
+    height: auto;
+    border: hidden; /*gemt - ellers kommer der en sort linje hele vejen rundt om*/
+    border-radius: 5px; /*runde kanter - større tal mere rundt*/
+}
+
+/*Eksempel:
+<main class="clickGreen">
+        <button>Tryk her!</button>
+</main>
+    */
+
+.clickBlue button{
+    font-family: "Open Sans", sans-serif;
+    background-color: #0079f2; /* #0079f2(original), #59a6e6(lysere), #4d9cc9(mere mat i det), #275e91(mørkere) */
+    color: white;
+    width: 10vw; /*vw er view width - så ændre den størrelse når skærmen bliver mindre */
+    height: auto;
+    border: hidden;
+    border-radius: 5px;
+}
