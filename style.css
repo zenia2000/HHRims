@@ -70,16 +70,36 @@ Når du vil bruge .maintext skal du i HTML skrive:
 
 /* MIA CSS */
 
-.omværk{
-    width: 300px;
-    height: 300px;
+
+/* til reklamevideoen*/
+.reklamevideo{
+     width: 100%;
+    height: auto;
+}
+
+/*til billederne på værkstedet - - - -  ARHHHHHHHH*/
+.omværk img{
+ width: 50%;
+ height: auto;
 }
 
 .clickGreenLong button{
     font-family: "Open Sans", sans-serif; /*font*/
     background-color: #66CC66; /* #66CC66(original), #91e191(lysere), #5c995c(mørkere), #73914b(mere brun i det)*/
     color: white; /*tekst farve*/
-    width: 25vw; /*vw er view width - så ændre den størrelse når skærmen bliver mindre */
+    width: 50vw; /*vw er view width - så ændre den størrelse når skærmen bliver mindre */
     height: 50px;
     border: hidden; /*gemt - ellers kommer der en sort linje hele vejen rundt om*/
     border-radius: 5px; /*runde kanter - større tal mere rundt*/
+    display: block;
+    margin: auto;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+.billederPåVærksted img{
+    display: flex;
+    justify-content: space-around;
+}
