@@ -8,6 +8,7 @@
 .headtext{
     font-family: "Open Sans", sans-serif;
     font-size: 35px;
+    text-align: center;
 }
 
 /*
@@ -73,14 +74,18 @@ Når du vil bruge .maintext skal du i HTML skrive:
 
 /* til reklamevideoen*/
 .reklamevideo{
-     width: 100%;
+     width: 410px;
     height: auto;
 }
 
-/*til billederne på værkstedet - - - -  ARHHHHHHHH*/
-.omværk img{
- width: 50%;
- height: auto;
+/*til billederne på værkstedet*/
+.MiasBill img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+ width: 250px;
+    height: auto;
 }
 
 .clickGreenLong button{
@@ -99,7 +104,3 @@ li{
     margin-bottom: 20px;
 }
 
-.billederPåVærksted img{
-    display: flex;
-    justify-content: space-around;
-}
