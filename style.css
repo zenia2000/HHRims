@@ -4,17 +4,16 @@
 /*Henter fonten "Open Sans Light" fra google til brug på sitet. Guide: https://www.wikihow.com/Use-Google-Fonts-in-CSS*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-/*En class(gruppe) der alle har "Open sans" som font, størrelse 35*/
+/*En class(gruppe) der alle har "Open sans" som font/
 .headtext{
     font-family: "Open Sans", sans-serif;
-    font-size: 35px;
 }
 
 /*
 Når du vil bruge .headtext skal du i HTML skrive:
-<header class="headtext">
- <h1>din tekst</h1>
- <header>
+<main class="headtext">
+ <h3>din tekst</h3>
+ <main>
 
  header kan erstattes med section eller nav.
 OBS!! Du vil ikke se nogen fysisk forskel. Det er så programmet og andre kan vide hvad din tekst handler om!!
@@ -64,3 +63,16 @@ Når du vil bruge .maintext skal du i HTML skrive:
     border: hidden;
     border-radius: 5px;
 }
+
+#Sofa {
+    display: flex;
+}
+
+figure{
+    display: inline-block;
+    width: 100%;
+    margin-left: 0;
+    border: 0.5px solid black;
+}
+
+
