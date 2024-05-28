@@ -93,18 +93,28 @@ ul.drop-content li a{ /*styling af links til undersiders*/
     border: black;
 }
 
+.flex{
+    display: flex;
+    position: relative;
 
+}
 
+.interImg{
+    display: block;
 
+}
+.backImg{
 
+    position: relative;
+}
 
 
 .clickGreen button{
     font-family: "Open Sans", sans-serif; /*font*/
     background-color: #66CC66; /* #66CC66(original), #91e191(lysere), #5c995c(mørkere), #73914b(mere brun i det)*/
     color: white; /*tekst farve*/
-    width: 10vw; /*vw er view width - så ændre den størrelse når skærmen bliver mindre */
-    height: auto;
+    width: 120px; /*vw er view width - så ændre den størrelse når skærmen bliver mindre */
+    height: 30px;
     border: hidden; /*gemt - ellers kommer der en sort linje hele vejen rundt om*/
     border-radius: 5px; /*runde kanter - større tal mere rundt*/
 }
