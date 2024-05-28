@@ -145,3 +145,39 @@ footer{
     display: none;
 }
 }
+
+/* MIA CSS */
+
+
+/* til reklamevideoen*/
+.reklamevideo{
+     width: 410px;
+    height: auto;
+}
+
+/*til billederne på værkstedet*/
+.MiasBill img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+ width: 250px;
+    height: auto;
+}
+
+.clickGreenLong button{
+    font-family: "Open Sans", sans-serif; /*font*/
+    background-color: #66CC66; /* #66CC66(original), #91e191(lysere), #5c995c(mørkere), #73914b(mere brun i det)*/
+    color: white; /*tekst farve*/
+    width: 50vw; /*vw er view width - så ændre den størrelse når skærmen bliver mindre */
+    height: 50px;
+    border: hidden; /*gemt - ellers kommer der en sort linje hele vejen rundt om*/
+    border-radius: 5px; /*runde kanter - større tal mere rundt*/
+    display: block;
+    margin: auto;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
