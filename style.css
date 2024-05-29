@@ -71,6 +71,64 @@ Når du vil bruge .maintext skal du i HTML skrive:
 
 /* MIA CSS */
 
+/*Navigationsbaren, fundet som "mobile navigation bar" på w3schools */
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo{
+    width: 55px;
+    height: 45px;
+}
+.hjerte{
+    width: 25px;
+    height: 25px;
+    padding-top: 10px;
+}
+
+.fa-bars{
+    padding: 14px 16px;
+    color: black;
+}
+
+.heart{
+    margin-left: auto;
+    margin-right: 4rem;
+}
+
+
+
 
 /* til reklamevideoen*/
 .reklamevideo{
