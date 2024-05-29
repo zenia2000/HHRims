@@ -1,0 +1,89 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"d96cd220-6b50-400f-ac8e-0ecace05889d\" name=\"Changes\" comment=\"Ny video + lidt css tilføjet.\">\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Bæredygtighed.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Bæredygtighed.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Miabilleder/video/reklamehjertet-kopi.mp4\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Miabilleder/video/reklamehjertets.mp4\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Om os.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Om os.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/style.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/style.css\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ComposerSettings\">\n    <execution />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"HTML File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"Sarah\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\"><![CDATA[{\n  \"associatedIndex\": 8\n}]]></component>\n  <component name=\"ProjectId\" id=\"2gRrKu8zv7C0qlaM8BGxRE5aMCX\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"DefaultHtmlFileTemplate\": \"HTML File\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"git-widget-placeholder\": \"Mia\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/Miabilleder/video\" />\n      <recent name=\"$PROJECT_DIR$/Miabilleder\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"d96cd220-6b50-400f-ac8e-0ecace05889d\" name=\"Changes\" comment=\"\" />\n      <created>1715671170803</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1715671170803</updated>\n      <workItem from=\"1715671171917\" duration=\"26470000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Første dag, alt sat ind, før css oprydning.\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1716459646386</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1716459646386</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"origin/Mia\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Første dag, alt sat ind, før css oprydning.\" />\n    <MESSAGE value=\"Ny video + lidt css tilføjet.\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Ny video + lidt css tilføjet.\" />\n  </component>\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,12 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="d96cd220-6b50-400f-ac8e-0ecace05889d" name="Changes" comment="Ny video + lidt css tilføjet.">
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Bæredygtighed.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bæredygtighed.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Miabilleder/video/reklamehjertet-kopi.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Miabilleder/video/reklamehjertets.mp4" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Om os.html" beforeDir="false" afterPath="$PROJECT_DIR$/Om os.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
++    <list default="true" id="d96cd220-6b50-400f-ac8e-0ecace05889d" name="Changes" comment="De færdige sider, uden navbar og footer">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -34,9 +30,9 @@
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 8
+-}]]></component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 8
++}</component>
+   <component name="ProjectId" id="2gRrKu8zv7C0qlaM8BGxRE5aMCX" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+@@ -44,6 +40,7 @@
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
++    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "DefaultHtmlFileTemplate": "HTML File",
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+@@ -59,8 +56,8 @@
+ }]]></component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/Miabilleder" />
+       <recent name="$PROJECT_DIR$/Miabilleder/video" />
+-      <recent name="$PROJECT_DIR$/Miabilleder" />
+     </key>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+@@ -72,6 +69,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1715671170803</updated>
+       <workItem from="1715671171917" duration="26470000" />
++      <workItem from="1716626721923" duration="2337000" />
+     </task>
+     <task id="LOCAL-00001" summary="Første dag, alt sat ind, før css oprydning.">
+       <option name="closed" value="true" />
+@@ -81,7 +79,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1716459646386</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="De færdige sider, uden navbar og footer">
++      <option name="closed" value="true" />
++      <created>1716634523447</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1716634523447</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -113,6 +119,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Første dag, alt sat ind, før css oprydning." />
+     <MESSAGE value="Ny video + lidt css tilføjet." />
+-    <option name="LAST_COMMIT_MESSAGE" value="Ny video + lidt css tilføjet." />
++    <MESSAGE value="De færdige sider, uden navbar og footer" />
++    <option name="LAST_COMMIT_MESSAGE" value="De færdige sider, uden navbar og footer" />
+   </component>
+ </project>
+\ No newline at end of file

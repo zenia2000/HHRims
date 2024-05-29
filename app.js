@@ -4,4 +4,4 @@ function myFunction() {
         x.style.display = "none";
     } else {
         x.style.display = "block";
-    }
+    }}
