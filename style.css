@@ -181,3 +181,88 @@ li{
     margin-bottom: 20px;
 }
 
+/*Rebeccas*/
+
+/*inspiration*/
+.lineSmall{
+    border-top: 5px dashed black;
+    padding: 0.5em;
+}
+
+.imageContainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+}
+
+
+/*farvorit*/
+
+.pFlex{
+    display: flex;
+    padding: 1em;
+    text-align: right;
+}
+
+.imageFlex{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+}
+
+/*Book tid her*/
+
+.Flex{
+    text-align: center;
+}
+
+.formuler{
+    margin-top: 50px;
+    font-size: x-large;
+    padding-top: 1px;
+    text-align: center;
+}
+
+.tekst{
+    width: 300px;
+    height: 30px;
+    font-size: medium;
+    background-color: #66CC66
+}
+
+/*Tak for bestilling*/
+
+.bFlex{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+}
+
+.tFlex{
+    padding: 0.5em;
+    text-align: center;
+}
+
+/*Ens farvorit*/
+
+.dflex{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+}
+
+.nFlex{
+    display: flex;
+    padding: 1em;
+    text-align: right;
+}
+
+.hFlex{
+    display: flex;
+    flex-direction: row;
+}
+
+.headtext2{
+    padding: 20px;
+        font-family: "Open Sans", sans-serif;
+}
