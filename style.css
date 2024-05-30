@@ -1,3 +1,4 @@
+/*Sarahs*/
 /*Henter fonten "Oranienbaum" fra google til brug på sitet*/
 @import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
 
@@ -39,59 +40,6 @@ Når du vil bruge .maintext skal du i HTML skrive:
  */
 
 
-ul.drop-content{
-    list-style-type: none; /*fjerne punkt form*/
-    overflow: visible;
-
-}
-
-ul.drop-content li a{ /*styling af links til undersiders*/
-    display: block;
-    color: black;
-    font-family: "Open Sans", sans-serif;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: white;
-    border: grey;
-}
-
-.dropbtn{ /*menu knappens udseende*/
-    background-color: lightgray;
-    border: grey;
-    color: black;
-    font-size: 25px;
-    padding: 5vw;
-    position: fixed; /*låst på siden så den ik forsvinder når man scroller*/
-    top: 0;
-    right: 0;
-}
-.dropdown{
-    position: fixed; /*låst på siden så den ik forsvinder når man scroller*/
-    display: block;
-    width: 100%;
-}
-.drop-content{ /*gemmer menuen før man hviler på den*/
-    display: none;
-    position: absolute;
-    width: 100%;
-}
-
-
-
-.drop-content a:hover{ /*effect på de seperate links når man hviler på dem*/
-    background-color: lightgray;
-    color: black;
-}
-
-.dropdown:hover .drop-content{
-    display: block;
-}
-
-.dropdown:hover .dropbtn{ /*effekt på menu knappen når man hviler på den*/
-    background: lightgray;
-    border: black;
-}
 
 .flex{
     display: flex;
@@ -129,10 +77,12 @@ ul.drop-content li a{ /*styling af links til undersiders*/
     font-family: "Open Sans", sans-serif;
     background-color: #0079f2; /* #0079f2(original), #59a6e6(lysere), #4d9cc9(mere mat i det), #275e91(mørkere) */
     color: white;
-    width: 10vw; /*vw er view width - så ændre den størrelse når skærmen bliver mindre */
-    height: auto;
+    width: 96vw; /*vw er view width - så ændre den størrelse når skærmen bliver mindre */
+    height: 50px;
     border: hidden;
     border-radius: 5px;
+
+
 }
 
 footer{
@@ -145,6 +95,67 @@ footer{
     display: none;
 }
 }
+
+/*Dette er kode der ikke bruges, men er en del af processen vi gik igennem*/
+
+/*
+ul.drop-content{
+    list-style-type: none; // fjerne punkt form
+    overflow: visible;
+
+}
+
+ul.drop-content li a{ /*styling af links til undersiders
+    display: block;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: white;
+    border: grey;
+}
+
+.dropbtn{ /*menu knappens udseende
+    background-color: lightgray;
+    border: grey;
+    color: black;
+    font-size: 25px;
+    padding: 5vw;
+    position: fixed; /*låst på siden så den ik forsvinder når man scroller
+    top: 0;
+    right: 0;
+}
+.dropdown{
+    position: fixed; /*låst på siden så den ik forsvinder når man scroller
+    display: block;
+    width: 100%;
+}
+.drop-content{ /*gemmer menuen før man hviler på den
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+
+
+.drop-content a:hover{ /*effect på de seperate links når man hviler på dem
+    background-color: lightgray;
+    color: black;
+}
+
+.dropdown:hover .drop-content{
+    display: block;
+}
+
+.dropdown:hover .dropbtn{ /*effekt på menu knappen når man hviler på den
+    background: lightgray;
+    border: black;
+}
+*/
+
+
+
 
 /* MIA CSS */
 
@@ -162,6 +173,7 @@ footer{
 
 .topnav #myLinks {
     display: none;
+    margin-right:12px ;
 }
 
 .topnav a {
@@ -169,6 +181,7 @@ footer{
     text-decoration: none;
     font-size: 17px;
     display: block;
+
 }
 
 .topnav a.icon {
@@ -324,6 +337,8 @@ li{
     padding: 20px;
         font-family: "Open Sans", sans-serif;
 }
+
+/*Isabellas*/
 
       /**
 #Sofa{

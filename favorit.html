@@ -7,47 +7,130 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="robots" content="noindex,nofollow">
     <link href="style.css" rel="stylesheet">
-    <title>Kontakt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Populære Produkter</title>
 </head>
+<!-- Sarah -->
 <body>
 
-<nav class="dropdown">
-    <button class="dropbtn">M</button>
-    <ul class="drop-content">
-        <li><a href="index.html">Forside</a></li>
-        <li><a href="#">Kollektion</a></li>
-        <li><a href="#">Inspiration</a></li>
-        <li><a href="#">Om os</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
-        <li><a href="favorit.html">Mine Favoritter</a></li>
-    </ul>
+<!-- Top Navigation Menu -->
+<nav id="topnavi" class="topnav">
+    <a href="index.html"><img src="Miabilleder/logo-kopi.png" alt="logo" class="logo">
+    </a>
+
+    <a class="heart" href="favorit.html"><img src="Miabilleder/Vector.png" alt="hjerte" class="hjerte"></a>
+
+    <div id="myLinks">
+        <a href="index.html">Hjem</a>
+        <a href="Kollektion.html">Kollektion</a>
+        <a href="inspiration.html">Inspiration</a>
+        <a href="favorit.html">Populære Produkter</a>
+        <a href="ensfarvorit.html">Mine Favoritter</a>
+        <a href="Om%20os.html">Om os</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="booktid.html">Book tid</a>
+    </div>
+
+    <a href="javascript:void(0)" class="icon" onclick="myFunction()" >
+        <i class="fa fa-bars fa-2xl" ></i>
+    </a>
+
 </nav>
 
+
 <header class="headtext">
-    <h1> Mine Favoritter </h1>
+    <h1> Populære produkter </h1>
 </header>
 
-<section class="headtext">
-    <h3>Navn: <br> Pris:</h3>
-    <article class="clickBlue">
-        <button>Favorit</button>
-    </article>
+<!--første billede -->
+
+<figure class="imageFlex">
+    <img src="Images/farvoritbillede3.png" alt="farvoritbillede">
+</figure>
+
+<figure>
+    <img src="Images/Hjeter.png"  alt="hjeter" width="50" height="50">
+    <img src="Images/Hjeter.png"  alt="hjeter" width="50" height="50">
+    <img src="Images/Hjeter.png"  alt="hjeter" width="50" height="50">
+    <img src="Images/Hjeter.png"  alt="hjeter" width="50" height="50">
+    <img src="Images/hjertesort.png"  alt="hjetesort" width="50" height="50">
+</figure>
+
+<section class="pFlex">
+    <h2 class="headtext">Navn: Mistleteen</h2>
 </section>
 
-<section class="headtext">
-    <h3>Navn: <br> Pris:</h3>
-    <article class="clickBlue">
-        <button>Favorit</button>
-    </article>
+<section class="pFlex">
+    <h2 class="headtext">Pris:20.000</h2>
 </section>
 
-<section class="headtext">
-    <h3>Navn: <br> Pris:</h3>
-    <article class="clickBlue">
+<article class="clickBlue">
+    <a href="ensfarvorit.html">
         <button>Favorit</button>
-    </article>
+    </a>
+</article>
+
+<!--andenbillede-->
+
+<figure class="imageFlex">
+    <img src="Images/farvoritbillede4.png" alt="farvoritbillede">
+</figure>
+
+<figure>
+    <img src="Images/Hjeter.png" alt="hjeter" width="50" height="50">
+    <img src="Images/Hjeter.png" alt="hjeter" width="50" height="50">
+    <img src="Images/Hjeter.png" alt="hjeter" width="50" height="50">
+    <img src="Images/Hjeter.png" alt="hjeter" width="50" height="50">
+    <img src="Images/Hjeter.png" alt="hjeter" width="50" height="50">
+</figure>
+
+<section class="pFlex">
+    <h2 class="headtext">Navn:Vinterfryd</h2>
+</section>
+
+<section class="pFlex">
+    <h2 class="headtext">Pris:20.000</h2>
 </section>
 
 
+
+    <article class="clickBlue">
+        <a href="ensfarvorit.html">
+            <button>Favorit</button>
+        </a>
+    </article>
+
+<!--tjerdebillede-->
+
+<figure class="imageFlex">
+    <img src="Images/farvoritbillede2.png" alt="farvoritbillede">
+</figure>
+
+<figure>
+    <img src="Images/Hjeter.png" alt="hjeter" width="50" height="50">
+    <img src="Images/Hjeter.png" alt="hjeter" width="50" height="50">
+    <img src="Images/Hjeter.png" alt="hjeter" width="50" height="50">
+    <img src="Images/Hjeter.png" alt="hjeter" width="50" height="50">
+    <img src="Images/hjertesort.png" alt="hjetersort" width="50" height="50">
+</figure>
+
+<section class="pFlex">
+    <h2 class="headtext">Navn: Sommerblomst</h2>
+</section>
+
+<section class="pFlex">
+    <h2 class="headtext">Pris:20.000</h2>
+</section>
+
+
+<article class="clickBlue">
+    <a href="ensfarvorit.html">
+        <button>Favorit</button>
+    </a>
+</article>
+
+
+
+<script src="app.js"></script>
 </body>
 </html>

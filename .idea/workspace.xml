@@ -5,20 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d96cd220-6b50-400f-ac8e-0ecace05889d" name="Changes" comment="Ny video + lidt css tilføjet.">
-      <change afterPath="$PROJECT_DIR$/Img kollektion/Havblik.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img kollektion/Hvidsten.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img kollektion/Kystlinjen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img kollektion/Nordlys.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img kollektion/Snekilde.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img kollektion/Vector.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img kollektion/Vector.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img kollektion/Vinterdalh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img kollektion/brise.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img kollektion/hyggeholm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img kollektion/solstråle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img kollektion/stillebæk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kollektion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_05_2024__12_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_05_2024__12_25__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_05_2024__13_28__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_05_2024__13_28__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bæredygtighed.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bæredygtighed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kollektion.html" beforeDir="false" afterPath="$PROJECT_DIR$/Kollektion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Om os.html" beforeDir="false" afterPath="$PROJECT_DIR$/Om os.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booktid.html" beforeDir="false" afterPath="$PROJECT_DIR$/booktid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ensfarvorit.html" beforeDir="false" afterPath="$PROJECT_DIR$/ensfarvorit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/farvorit.html" beforeDir="false" afterPath="$PROJECT_DIR$/farvorit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorit.html" beforeDir="false" afterPath="$PROJECT_DIR$/favorit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inspiration.html" beforeDir="false" afterPath="$PROJECT_DIR$/inspiration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takforbestilling.html" beforeDir="false" afterPath="$PROJECT_DIR$/takforbestilling.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Sarah" />
+        <entry key="$PROJECT_DIR$" value="Mia" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +59,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716459646386</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Samler alles kode">
+      <option name="closed" value="true" />
+      <created>1717062283344</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717062283344</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Første dag, alt sat ind, før css oprydning." />
     <MESSAGE value="Ny video + lidt css tilføjet." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ny video + lidt css tilføjet." />
+    <MESSAGE value="Samler alles kode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Samler alles kode" />
   </component>
 </project>
